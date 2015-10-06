@@ -10,7 +10,7 @@ Package.describe({
   documentation: 'README.md'
 });
 
-Package.onUse(function(api) {
+Package.onUse(function (api) {
   api.versionsFrom('1.1.0.2');
   api.addFiles('clinical-themes.js');
 
@@ -25,7 +25,7 @@ Package.onUse(function(api) {
 
 });
 
-Package.onTest(function(api) {
+Package.onTest(function (api) {
   api.use('tinytest');
   api.use('clinical-themes');
   api.addFiles('tests/clinical-themes.js');
