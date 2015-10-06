@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'clinical-themes',
+  name: 'clinical:themes',
   version: '0.0.1',
   // Brief, one-line summary of the package.
   summary: 'Theme selection component for ClinicalFramework apps.',
