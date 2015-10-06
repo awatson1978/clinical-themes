@@ -12,12 +12,11 @@ Package.describe({
 
 Package.onUse(function (api) {
   api.versionsFrom('1.1.0.2');
-  api.addFiles('clinical-themes.js');
-
+  
   api.use('meteor-platform');
   api.use('less');
 
-  api.addFiles('lib/ActiveThemes.html');
+  api.addFiles('lib/ActiveThemes.js');
 
   api.addFiles('components/themeCard.html');
   api.addFiles('components/themeCard.js');
